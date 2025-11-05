@@ -7,6 +7,8 @@
 
 // setup
 basic.clearScreen()
+basic.showIcon(IconNames.Happy)
+// variables 
 let insideLoop = 4
 let counter = 4
 let sprite = game.createSprite(0, 0)
@@ -24,6 +26,7 @@ input.onButtonPressed(Button.A, function () {
         counter = counter -1
         sprite.turn(Direction.Right, 90)
      }
+sprite.delete()
 basic.clearScreen()
 basic.showIcon(IconNames.Happy)
  })
