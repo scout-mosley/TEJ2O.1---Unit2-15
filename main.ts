@@ -24,6 +24,7 @@ input.onButtonPressed(Button.A, function () {
         counter = counter -1
         sprite.turn(Direction.Right, 90)
      }
-
+basic.clearScreen()
+basic.showIcon(IconNames.Happy)
  })
  
