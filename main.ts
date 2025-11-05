@@ -10,14 +10,16 @@ basic.clearScreen()
 let insideLoop = 4
 let counter = 4
 led.plot(0, 0)
+let sprite: game.LedSprite = null
 
 // does nested loop
 input.onButtonPressed(Button.A, function () { 
     while (counter > 0) {
         while (insideLoop > 0) {
         insideLoop = insideLoop -1
-        
+        sprite.move(1) 
         }
+        
      }
 
 
