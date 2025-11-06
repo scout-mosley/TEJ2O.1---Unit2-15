@@ -11,7 +11,7 @@ basic.showIcon(IconNames.Happy)
 // variables 
 let insideLoop = 4
 let counter = 4
-let sprite = game.createSprite(0, 0)
+const sprite = game.createSprite(0, 0)
 
 // does nested loop
 input.onButtonPressed(Button.A, function () { 
